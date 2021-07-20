@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QYw-K1-R9f">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gby-jh-hmw">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -57,8 +57,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Kg5-U4-pw5" firstAttribute="top" secondItem="Wv5-Pb-spW" secondAttribute="top" constant="100" id="Iiz-mu-n8q"/>
-                            <constraint firstItem="Wv5-Pb-spW" firstAttribute="trailing" secondItem="Kg5-U4-pw5" secondAttribute="trailing" constant="100" id="L73-OM-LtN"/>
                             <constraint firstItem="Kg5-U4-pw5" firstAttribute="leading" secondItem="Wv5-Pb-spW" secondAttribute="leading" constant="100" id="V3e-XB-qF8"/>
+                            <constraint firstItem="Wv5-Pb-spW" firstAttribute="trailing" secondItem="Kg5-U4-pw5" secondAttribute="trailing" constant="100" id="iKL-sn-Hdx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="e9Z-uD-tbN"/>
@@ -66,6 +66,118 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mi-0z-MFo" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2139" y="119"/>
+        </scene>
+        <!--Switch View Controller-->
+        <scene sceneID="Fa3-MZ-Fk8">
+            <objects>
+                <viewController id="oL5-g6-Tdg" customClass="UISwitchViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="brK-Ik-Orw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UISwitch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgH-Vl-ncV">
+                                <rect key="frame" x="100" y="144" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T7e-uG-ZuH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wgH-Vl-ncV" firstAttribute="leading" secondItem="T7e-uG-ZuH" secondAttribute="leading" constant="100" id="0EK-wA-AP1"/>
+                            <constraint firstItem="T7e-uG-ZuH" firstAttribute="trailing" secondItem="wgH-Vl-ncV" secondAttribute="trailing" constant="100" id="aF1-pK-RxY"/>
+                            <constraint firstItem="wgH-Vl-ncV" firstAttribute="top" secondItem="T7e-uG-ZuH" secondAttribute="top" constant="100" id="j19-aa-xsg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afS-Ho-aaD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="119"/>
+        </scene>
+        <!--Text Field View Controller-->
+        <scene sceneID="IzR-SG-XOR">
+            <objects>
+                <viewController id="SIG-ye-e11" customClass="UITextFieldViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lOz-ye-Oxd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UITextField" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4F-cl-MwZ">
+                                <rect key="frame" x="100" y="144" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IgE-cW-Yl6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f4F-cl-MwZ" firstAttribute="top" secondItem="IgE-cW-Yl6" secondAttribute="top" constant="100" id="Cab-Vr-tYg"/>
+                            <constraint firstItem="f4F-cl-MwZ" firstAttribute="leading" secondItem="IgE-cW-Yl6" secondAttribute="leading" constant="100" id="FP4-4O-O9d"/>
+                            <constraint firstItem="IgE-cW-Yl6" firstAttribute="trailing" secondItem="f4F-cl-MwZ" secondAttribute="trailing" constant="100" id="rru-KA-dKK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MS4-f5-4O1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2138" y="865"/>
+        </scene>
+        <!--Text View Controller-->
+        <scene sceneID="TOK-bM-UJf">
+            <objects>
+                <viewController id="lEE-yj-IB6" customClass="UITextViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ec6-aW-Pj8" customClass="UITextField">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UITextView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9d-Ut-nGN">
+                                <rect key="frame" x="100" y="144" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bfb-QO-oNG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bfb-QO-oNG" firstAttribute="trailing" secondItem="d9d-Ut-nGN" secondAttribute="trailing" constant="100" id="1w6-bd-deS"/>
+                            <constraint firstItem="d9d-Ut-nGN" firstAttribute="leading" secondItem="bfb-QO-oNG" secondAttribute="leading" constant="100" id="5HF-tk-9aE"/>
+                            <constraint firstItem="d9d-Ut-nGN" firstAttribute="top" secondItem="bfb-QO-oNG" secondAttribute="top" constant="100" id="vKv-DE-IJH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UpP-B8-jJK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3035" y="865"/>
+        </scene>
+        <!--Segmented Control View Controller-->
+        <scene sceneID="UYu-bU-7nK">
+            <objects>
+                <viewController id="Gby-jh-hmw" customClass="UISegmentedControlViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lKm-YE-3Lm" customClass="UITextField">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UISegmentedControl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl3-D3-erL">
+                                <rect key="frame" x="100" y="144" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="afg-hh-rwg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wl3-D3-erL" firstAttribute="leading" secondItem="afg-hh-rwg" secondAttribute="leading" constant="100" id="1AC-QM-Uaf"/>
+                            <constraint firstItem="afg-hh-rwg" firstAttribute="trailing" secondItem="wl3-D3-erL" secondAttribute="trailing" constant="100" id="8yq-RB-Rq5"/>
+                            <constraint firstItem="wl3-D3-erL" firstAttribute="top" secondItem="afg-hh-rwg" secondAttribute="top" constant="100" id="I3n-83-XXP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f45-01-plg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3933" y="865"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4842A3A26A6D56200C5E4E5 /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A3926A6D56200C5E4E5 /* UISwitchViewController.swift */; };
+		D4842A4026A6DB5900C5E4E5 /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A3F26A6DB5900C5E4E5 /* UITextFieldViewController.swift */; };
+		D4842A4626A6DF4200C5E4E5 /* UITextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A4526A6DF4200C5E4E5 /* UITextViewController.swift */; };
+		D4842A4F26A6E12800C5E4E5 /* UISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A4E26A6E12800C5E4E5 /* UISegmentedControlViewController.swift */; };
 		D4A3118626A5CD4300D4A58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A3118526A5CD4300D4A58F /* AppDelegate.swift */; };
 		D4A3118826A5CD4300D4A58F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A3118726A5CD4300D4A58F /* SceneDelegate.swift */; };
 		D4A3118A26A5CD4300D4A58F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A3118926A5CD4300D4A58F /* MainViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4842A3926A6D56200C5E4E5 /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
+		D4842A3F26A6DB5900C5E4E5 /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
+		D4842A4526A6DF4200C5E4E5 /* UITextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewController.swift; sourceTree = "<group>"; };
+		D4842A4E26A6E12800C5E4E5 /* UISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlViewController.swift; sourceTree = "<group>"; };
 		D4A3118226A5CD4300D4A58F /* UIKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A3118526A5CD4300D4A58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A3118726A5CD4300D4A58F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +86,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4842A3826A6D54400C5E4E5 /* UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				D4842A3926A6D56200C5E4E5 /* UISwitchViewController.swift */,
+			);
+			path = UISwitch;
+			sourceTree = "<group>";
+		};
+		D4842A3E26A6DB3000C5E4E5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D4842A3F26A6DB5900C5E4E5 /* UITextFieldViewController.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		D4842A4426A6DF2200C5E4E5 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				D4842A4526A6DF4200C5E4E5 /* UITextViewController.swift */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		D4842A4D26A6E0FC00C5E4E5 /* UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				D4842A4E26A6E12800C5E4E5 /* UISegmentedControlViewController.swift */,
+			);
+			path = UISegmentedControl;
+			sourceTree = "<group>";
+		};
 		D4A3117926A5CD4300D4A58F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +141,10 @@
 		D4A3118426A5CD4300D4A58F /* UIKitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D4842A4D26A6E0FC00C5E4E5 /* UISegmentedControl */,
+				D4842A4426A6DF2200C5E4E5 /* UITextView */,
+				D4842A3E26A6DB3000C5E4E5 /* UITextField */,
+				D4842A3826A6D54400C5E4E5 /* UISwitch */,
 				D4A311C726A5D3FC00D4A58F /* UIButton */,
 				D4A3118526A5CD4300D4A58F /* AppDelegate.swift */,
 				D4A3118726A5CD4300D4A58F /* SceneDelegate.swift */,
@@ -270,8 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A311C926A5D42300D4A58F /* UIButtonViewController.swift in Sources */,
+				D4842A3A26A6D56200C5E4E5 /* UISwitchViewController.swift in Sources */,
 				D4A3118A26A5CD4300D4A58F /* MainViewController.swift in Sources */,
+				D4842A4F26A6E12800C5E4E5 /* UISegmentedControlViewController.swift in Sources */,
+				D4842A4626A6DF4200C5E4E5 /* UITextViewController.swift in Sources */,
 				D4A3118626A5CD4300D4A58F /* AppDelegate.swift in Sources */,
+				D4842A4026A6DB5900C5E4E5 /* UITextFieldViewController.swift in Sources */,
 				D4A3118826A5CD4300D4A58F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
