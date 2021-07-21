@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D458EF3926A883C70006BD49 /* UISliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458EF3826A883C70006BD49 /* UISliderViewController.swift */; };
 		D4842A3A26A6D56200C5E4E5 /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A3926A6D56200C5E4E5 /* UISwitchViewController.swift */; };
 		D4842A4026A6DB5900C5E4E5 /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A3F26A6DB5900C5E4E5 /* UITextFieldViewController.swift */; };
 		D4842A4626A6DF4200C5E4E5 /* UITextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4842A4526A6DF4200C5E4E5 /* UITextViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D458EF3826A883C70006BD49 /* UISliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderViewController.swift; sourceTree = "<group>"; };
 		D4842A3926A6D56200C5E4E5 /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 		D4842A3F26A6DB5900C5E4E5 /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
 		D4842A4526A6DF4200C5E4E5 /* UITextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D458EF3726A883A70006BD49 /* UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				D458EF3826A883C70006BD49 /* UISliderViewController.swift */,
+			);
+			path = UISlider;
+			sourceTree = "<group>";
+		};
 		D4842A3826A6D54400C5E4E5 /* UISwitch */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		D4A3118426A5CD4300D4A58F /* UIKitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D458EF3726A883A70006BD49 /* UISlider */,
 				D4842A4D26A6E0FC00C5E4E5 /* UISegmentedControl */,
 				D4842A4426A6DF2200C5E4E5 /* UITextView */,
 				D4842A3E26A6DB3000C5E4E5 /* UITextField */,
@@ -313,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D458EF3926A883C70006BD49 /* UISliderViewController.swift in Sources */,
 				D4A311C926A5D42300D4A58F /* UIButtonViewController.swift in Sources */,
 				D4842A3A26A6D56200C5E4E5 /* UISwitchViewController.swift in Sources */,
 				D4A3118A26A5CD4300D4A58F /* MainViewController.swift in Sources */,
