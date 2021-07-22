@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eZJ-6n-FDJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qcd-Yu-gOm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -206,6 +206,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nfB-xR-Vhz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3016" y="1631"/>
+        </scene>
+        <!--Stepper View Controller-->
+        <scene sceneID="hyu-cQ-82k">
+            <objects>
+                <viewController id="eoz-lC-nVu" customClass="UIStepperViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9IV-BY-lTj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIStepper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcF-kX-GBr">
+                                <rect key="frame" x="100" y="176" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p7u-Ob-xL5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QcF-kX-GBr" firstAttribute="leading" secondItem="p7u-Ob-xL5" secondAttribute="leading" constant="100" id="7P9-7i-9rd"/>
+                            <constraint firstItem="p7u-Ob-xL5" firstAttribute="trailing" secondItem="QcF-kX-GBr" secondAttribute="trailing" constant="100" id="VZk-T8-Tee"/>
+                            <constraint firstItem="QcF-kX-GBr" firstAttribute="top" secondItem="p7u-Ob-xL5" secondAttribute="top" constant="132" id="gjv-K9-cFk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yzO-WE-8As" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3932" y="1631"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="d33-Kt-2bb">
+            <objects>
+                <viewController id="qcd-Yu-gOm" customClass="UIImageViewController" customModule="UIKitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jam-V0-zkf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIImageView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBb-0e-da1">
+                                <rect key="frame" x="100" y="144" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nzy-kh-UMx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zBb-0e-da1" firstAttribute="top" secondItem="nzy-kh-UMx" secondAttribute="top" constant="100" id="9jn-h8-IH7"/>
+                            <constraint firstItem="zBb-0e-da1" firstAttribute="leading" secondItem="nzy-kh-UMx" secondAttribute="leading" constant="100" id="czN-1I-a3S"/>
+                            <constraint firstItem="nzy-kh-UMx" firstAttribute="trailing" secondItem="zBb-0e-da1" secondAttribute="trailing" constant="100" id="ij4-Bi-p24"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8G-jv-wVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4842" y="1631"/>
         </scene>
     </scenes>
     <resources>
